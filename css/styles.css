@@ -30,6 +30,8 @@
   font-size: 14px;
 }
 
+.header-contacts:hover
+
 .header-contacts-number {
   padding-left: 50px;
 }
@@ -459,7 +461,7 @@ h1 h2 h3 h4 h5 h6 p ul {
   justify-content: center;
   align-items: center;
   padding-right: 10px;
-}
+  fill: var(--blue-color)}
 
 .workers-social-links {
   display: flex;
@@ -487,6 +489,13 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .social-icon-workers:hover {
   background-color: var(--blue-color);
+  cursor: pointer;
+}
+
+.portfolio-overlay:hover {
+  cursor: pointer;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .social-icon-workers:hover svg {
