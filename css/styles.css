@@ -97,15 +97,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 42.5px;
-  background: var(--blue-color);
-  border-radius: 10px 10px 10px 10px;
+.active {
+  color: var(--active-color);
 }
+
+
 
 .header-links:hover,
 .header-links:focus,
