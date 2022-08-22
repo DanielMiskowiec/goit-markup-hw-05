@@ -682,13 +682,12 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .close-modal {
   position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    background-color: var(--what-we-do-words-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 100%;
-    cursor: pointer;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--what-we-do-words-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  cursor: pointer;
 }
-
