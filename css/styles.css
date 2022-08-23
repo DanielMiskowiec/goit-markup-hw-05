@@ -373,6 +373,11 @@ h1 h2 h3 h4 h5 h6 p ul {
   /* position: relative; */
 }
 
+.project-list-child:hover .text-box {
+  transform: translateX(0);
+  background-color: var(--active-color);
+}
+
 .portfolio-overlay {
   position: relative;
   overflow: hidden;
